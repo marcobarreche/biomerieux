@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test name="biomerieux-api20e">
+	<capsule position ='1' result='P' r='123.25888735' g='196.4278325' b='207.88142078' ></capsule>
+	<capsule position ='3' result='P' r='31.5625' g='7.30555556' b='178.13888889' ></capsule>
+	<capsule position ='5' result='P' r='94.97916667' g='85.125' b='41.61111111' ></capsule>
+	<capsule position ='19' result='P' r='23.33885426' g='140.86575677' b='194.11494883' ></capsule>
+	<capsule position ='5' result='N' r='101.16805171' g='162.81840566' b='168.65373961' ></capsule>
+	<capsule position ='3' result='N' r='54.69375192' g='123.97291474' b='198.39058172' ></capsule>
+	<capsule position ='1' result='N' r='165.06944444' g='175.92361111' b='183.08333333' ></capsule>
+	<capsule position ='20' result='P' r='23.33885426' g='140.86575677' b='194.11494883' ></capsule>
+	<capsule position ='16' result='N' r='110.58223684' g='63.88920629' b='29.50661261' ></capsule>
+	<capsule position ='10' result='N' r='190.56835757' g='188.13566674' b='211.49561404' ></capsule>
+	<capsule position ='14' result='P' r='23.33885426' g='140.86575677' b='194.11494883' ></capsule>
+	<capsule position ='9' result='N' r='149.0625' g='179.47222222' b='202.94444444' ></capsule>
+	<capsule position ='7' result='N' r='34.76687058' g='168.04640851' b='203.97039474' ></capsule>
+	<capsule position ='12' result='N' r='110.58223684' g='63.88920629' b='29.50661261' ></capsule>
+	<capsule position ='12' result='P' r='23.33885426' g='140.86575677' b='194.11494883' ></capsule>
+	<capsule position ='13' result='P' r='23.33885426' g='140.86575677' b='194.11494883' ></capsule>
+	<capsule position ='7' result='P' r='96.71354167' g='27.98090278' b='185.07986111' ></capsule>
+	<capsule position ='14' result='N' r='110.58223684' g='63.88920629' b='29.50661261' ></capsule>
+	<capsule position ='9' result='P' r='131.86961534' g='93.42489963' b='217.13278537' ></capsule>
+	<capsule position ='10' result='P' r='88.18666667' g='76.10777778' b='198.58888889' ></capsule>
+	<capsule position ='16' result='P' r='23.33885426' g='140.86575677' b='194.11494883' ></capsule>
+	<capsule position ='20' result='N' r='110.58223684' g='63.88920629' b='29.50661261' ></capsule>
+	<capsule position ='2' result='P' r='31.5625' g='7.30555556' b='178.13888889' ></capsule>
+	<capsule position ='17' result='N' r='110.58223684' g='63.88920629' b='29.50661261' ></capsule>
+	<capsule position ='18' result='N' r='110.58223684' g='63.88920629' b='29.50661261' ></capsule>
+	<capsule position ='4' result='P' r='48.52199715' g='17.69225146' b='204.72601185' ></capsule>
+	<capsule position ='4' result='N' r='19.61328125' g='175.4453125' b='223.48046875' ></capsule>
+	<capsule position ='18' result='P' r='23.33885426' g='140.86575677' b='194.11494883' ></capsule>
+	<capsule position ='2' result='N' r='53.53739612' g='168.14312096' b='214.21698984' ></capsule>
+	<capsule position ='15' result='P' r='23.33885426' g='140.86575677' b='194.11494883' ></capsule>
+	<capsule position ='8' result='N' r='31.18804253' g='128.31671821' b='192.00297038' ></capsule>
+	<capsule position ='11' result='N' r='157.50328947' g='155.21731687' b='166.28744421'></capsule>
+	<capsule position ='13' result='N' r='110.58223684' g='63.88920629' b='29.50661261'></capsule>
+	<capsule position='6' result='N' r='209.99876885' g='204.05478609' b='221.8174823'></capsule>
+	<capsule position='6' result='P' r='20.2864229' g='29.61444161' b='26.84672619' ></capsule>
+	<capsule position='19' result='N' r='110.58223684' g='63.88920629' b='29.50661261' ></capsule>
+	<capsule position='11' result='P' r='18.44791667' g='18.54513889' b='18.96180556' ></capsule>
+	<capsule position='8' result='P' r='21.39409722' g='18.77256944' b='45.53472222' ></capsule>
+	<capsule position='15' result='N' r='110.58223684' g='63.88920629' b='29.50661261' ></capsule>
+	<capsule position='17' result='P' r='23.33885426' g='140.86575677' b='194.11494883'></capsule>
+</test>

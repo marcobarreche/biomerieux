@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biomerieux</string>
+    <string name="album_name">Face Detection</string>
+    <string name="cannot">Cannot</string>
+    <string name="picture_activity_name">Biomerieux picture</string>
+ 	<string name="dialog_question_remove">Remove capsule?</string>
+ 	<string name="dialog_question_add">Add capsule?</string>
+ 	<string name="dialog_ok">Accept</string>
+ 	<string name="dialog_cancel">Cancel</string>
+</resources>
