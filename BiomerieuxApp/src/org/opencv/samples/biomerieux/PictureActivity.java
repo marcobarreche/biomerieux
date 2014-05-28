@@ -150,13 +150,13 @@ public class PictureActivity extends FragmentActivity{
 	}
 
 	private void initGotAndExpectedResults() {
-		try {
-	    	Tuple<SmartCapsules, List<Boolean>> tuple = SmartCapsules.api20e_reader(imageBase, classifier, colorPos);
-	    	gotPositions = tuple.x;
-		    gotEvaluation = tuple.y;
-	    } catch (Exception e) {
-			displayMessageAndBack2Video("Error. We could not identify the capsules.");
-		}
+	    	try {
+				Tuple<SmartCapsules, List<Boolean>> tuple = SmartCapsules.api20e_reader(imageBase, classifier, colorPos);
+				gotPositions = tuple.x;
+				gotEvaluation = tuple.y;
+			} catch (Exception e) {
+				displayMessageAndBack2Video("Error. We could not identify the capsules.");
+			}
 
 		if (gotPositions != null && gotEvaluation.size() > 0) {
 			expPositions = new SmartCapsules(gotPositions.getCapsules());
@@ -188,7 +188,7 @@ public class PictureActivity extends FragmentActivity{
 	public boolean onOptionsItemSelected(MenuItem item) {
 		if (item == mItemOk) {
 			saveImage();
-			displayMessageAndBack2Video("The image was saved successfully");
+			Toast.makeText(getApplicationContext(), "The image was saved successfully", Toast.LENGTH_SHORT).show();
 		} else if (item == mItemPost) {
 			String image = saveImage();
 			try {
@@ -299,6 +299,8 @@ public class PictureActivity extends FragmentActivity{
 				rect.width + TICKNESS * 2, 
 				rect.height + TICKNESS
 			);
+			crop.width = Math.min(image.width() - crop.x , crop.width);
+			crop.height = Math.min(image.height() - crop.y , crop.height);
 			chunks.put(new Tuple<Integer, Integer>(rect.x, rect.y), image.submat(crop).clone());
 		}
 	}
@@ -350,8 +352,7 @@ public class PictureActivity extends FragmentActivity{
 			is.close();
 			os.close();
 		} catch (IOException e) {
-			e.printStackTrace();
-			Log.e(TAG, "Failed to load cascade. Exception thrown: " + e);
+			displayMessageAndBack2Video("Your mobile do not have enough space in the file system.");
 		}
 		return res;
 	}
